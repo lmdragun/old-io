@@ -14,6 +14,7 @@ $lindsey: #115D5E;
 }
 
 @import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
 
 * {
 	margin: 0;
@@ -40,11 +41,13 @@ header {
 	a {
 		color: #000;
 	}
+	h1 {
+		font-weight: bold;
+		font-family: 'Bitter', sans-serif;
+	}
 }
 
-h1 {
-	font-weight: bold;
-}
+
 
 main {
 	a {
