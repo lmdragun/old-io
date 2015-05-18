@@ -1,28 +1,31 @@
-main {
-  width: 50%;
-  margin: 0 auto; }
+@media (min-width: 500px) {
+  main {
+    width: 50%;
+    margin: 0 auto; }
 
-p {
-  text-indent: 20px;
-  font-size: 16px;
-  line-height: 20px;
-  padding: 10px;
-  margin: 5px; }
+  p {
+    text-indent: 20px;
+    font-size: 18px;
+    line-height: 20px;
+    padding: 10px;
+    margin: 5px; }
 
-img {
-  width: 50%;
-  margin-left: 25%; }
+  img {
+    width: 50%;
+    margin-left: 25%; }
 
-nav {
-  display: inline-block;
-  width: 100%; }
-  nav h1 {
-    float: left; }
-  nav a {
-    float: right;
-    padding: 5px;
-    text-decoration: none; }
-    nav a:hover {
-      text-decoration: overline underline; }
+  nav {
+    display: inline-block;
+    width: 100%; }
+    nav h1 {
+      float: left;
+      font-size: 50px; }
+    nav a {
+      float: right;
+      padding: 5px;
+      font-size: 20px;
+      text-decoration: none; }
+      nav a:hover {
+        text-decoration: overline underline; } }
 
 /*# sourceMappingURL=large.css.map */
