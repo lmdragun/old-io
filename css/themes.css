@@ -28,8 +28,7 @@
 
   header {
     min-width: 100%;
-    background-color: #115D5E;
-    /* 	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); */ }
+    background-color: #115D5E; }
     header a {
       color: #000; }
     header h1 {
@@ -38,9 +37,6 @@
 
   main a {
     color: #115D5E;
-    text-decoration: none; }
-
-  img {
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); } }
+    text-decoration: none; } }
 
 /*# sourceMappingURL=themes.css.map */
