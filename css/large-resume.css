@@ -1,0 +1,42 @@
+@media (min-width: 700px) {
+  main {
+    width: 70%;
+    margin: 0 auto;
+    padding: 5px; }
+    main #content {
+      margin-top: 180px;
+      margin-bottom: 50px;
+      position: relative; }
+    main p {
+      text-indent: 20px;
+      font-size: 18px;
+      line-height: 20px;
+      padding: 10px; }
+
+  .portfolio {
+    padding: 10px;
+    margin-top: 160px auto; }
+    .portfolio img {
+      width: 50%; }
+
+  header img {
+    max-height: 150px;
+    overflow: hidden; }
+  header nav {
+    display: inline-block;
+    width: 100%; }
+    header nav h1 {
+      float: left;
+      font-size: 46px;
+      text-indent: 100px;
+      margin-top: 50px; }
+    header nav a {
+      margin-top: 10px;
+      float: right;
+      padding: 5px;
+      font-size: 20px;
+      text-decoration: none; }
+      header nav a:hover {
+        text-decoration: overline underline; } }
+
+/*# sourceMappingURL=large-resume.css.map */
