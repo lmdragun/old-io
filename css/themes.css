@@ -38,24 +38,11 @@
     min-height: 100%;
     font-family: 'Lato', sans-serif;
     color: #000;
-    background-color: #eee;
+    background-color: #F8F8F8;
     /*   position: relative; */ }
 
   header {
     min-width: 100%;
-<<<<<<< HEAD
-    background-color: #115D5E; }
-    header a {
-      color: #000; }
-    header h1 {
-      font-weight: bold;
-      font-family: 'Bitter', sans-serif; }
-
-  main a {
-    color: #115D5E;
-    text-decoration: none; } }
-=======
-    background-color: #115D5E;
     position: relative;
     margin-top: -10px; }
     header img {
@@ -67,10 +54,6 @@
     header nav {
       position: absolute;
       z-index: 99; }
-      header nav a:first-child {
-        float: left; }
-      header nav a:nth-child(2) {
-        float: right; }
       header nav a {
         color: #115D5E; }
       header nav h1 {
@@ -106,6 +89,5 @@
     footer img {
       min-width: 100%;
       overflow: hidden; } }
->>>>>>> purple
 
 /*# sourceMappingURL=themes.css.map */

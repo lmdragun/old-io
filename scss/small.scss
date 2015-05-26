@@ -1,11 +1,11 @@
-@media (max-width: 699px){
+@media (max-width: 599px){
 
 main {
 	width: 80%;
 	margin: 0 auto;
 	#content {
 		margin-top: 10px;
-		padding-top: 50px;
+		padding-top: 70px;
 		p {
 			text-indent: 10px;
 			font-size: 14px;
@@ -23,12 +23,11 @@ main {
 	width: 100%;
 	display: block;
 		.box {
-			width: 100px;
-			padding: 2px;
+			width: 50px;
+			text-align: center;
 			a {
 				padding: 10px;
 				display: block;
-				width: 100px;
 				margin: 0 auto;
 			}
 		}
@@ -50,16 +49,36 @@ header {
 			float: left;
 			font-size:26px;
 		}
-		a {
+		.internal-links {
+			display: block;
+			width: 70px;
+			height: 50px;
 			float: right;
+			margin-right: 0;
+		}
+		a {
+			width: 20px;
 			padding: 2px;
 			text-decoration: none;
-			font-size:12px;
+			font-size:14px;
+			font-weight: bold;
 			display: block;
 			&:hover {
 				text-decoration: overline underline;
 			}
+			a:first-child {
+				float: left;
+			}
+			a:nth-child(2) {
+				float: right;
+			}
 		}
+	}
+}
+
+footer {
+	img {
+		max-height: 6px;
 	}
 }
 

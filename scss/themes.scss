@@ -71,14 +71,13 @@ body {
   min-height: 100%;
 	font-family: 'Lato', sans-serif;
 	color: #000;
-	background-color: #eee;
+	background-color: #F8F8F8;
 /*   position: relative; */
 }
 
 header {
 	@extend .boxshadow;
 	min-width: 100%;
-	background-color: $lindsey;
   position:relative;
   margin-top:-10px;
   img {
@@ -91,12 +90,6 @@ header {
   nav {
     position: absolute;
     z-index: 99;
-    a:first-child{
-      float: left;
-    }
-    a:nth-child(2) {
-      float:right;
-    }
     a {
       color: $lindsey;
     }
