@@ -4,7 +4,7 @@
     margin: 0 auto;
     padding: 10px; }
     main #content {
-      margin-top: 180px;
+      margin-top: 100px;
       margin-bottom: 50px;
       position: relative; }
     main p {
@@ -20,12 +20,14 @@
       margin-bottom: 20px;
       width: 100%; }
       main .links .box {
-        width: 200px; }
+        /* 			width: 200px; */ }
         main .links .box a {
-          padding: 20px; }
+          padding: 20px;
+          width: 200px; }
 
   header img {
-    max-height: 150px;
+    max-height: 10px;
+    margin-top: 90px;
     overflow: hidden; }
   header nav {
     display: inline-block;
@@ -33,15 +35,18 @@
     header nav h1 {
       float: left;
       font-size: 46px;
-      text-indent: 100px;
-      margin-top: 50px; }
+      text-indent: 50px;
+      margin-top: 20px; }
     header nav a {
       margin-top: 10px;
       float: right;
       padding: 5px;
-      font-size: 20px;
+      font-size: 16px;
       text-decoration: none; }
       header nav a:hover {
-        text-decoration: overline underline; } }
+        text-decoration: overline underline; }
+
+  footer img {
+    height: 10px; } }
 
 /*# sourceMappingURL=large.css.map */

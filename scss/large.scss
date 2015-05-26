@@ -5,7 +5,7 @@ main {
 	margin: 0 auto;
 	padding: 10px;
 	#content {
-		margin-top: 180px;
+		margin-top: 100px;
 		margin-bottom: 50px;
 		position: relative;
 	}
@@ -26,9 +26,10 @@ main {
 	margin-bottom: 20px;
 	width: 100%;
 		.box {
-			width: 200px;
+/* 			width: 200px; */
 			a {
 				padding: 20px;
+				width: 200px;
 			}
 		}
 	}
@@ -39,7 +40,8 @@ main {
 
 header {
 	img {
-		max-height: 150px;
+		max-height: 10px;
+		margin-top: 90px;
 		overflow: hidden;
 	}
 	nav {
@@ -48,14 +50,14 @@ header {
 		h1 {
 			float: left;
 			font-size: 46px;
-			text-indent: 100px;
-			margin-top: 50px;
+			text-indent: 50px;
+			margin-top: 20px;
 		}
 		a {
 			margin-top: 10px;
 			float: right;
 			padding: 5px;
-			font-size: 20px;
+			font-size: 16px;
 			text-decoration: none;
 			&:hover {
 				text-decoration: overline underline;
@@ -64,6 +66,11 @@ header {
 	}
 }
 
+footer {
+	img {
+		height: 10px;
+	}
+}
 
 
 }

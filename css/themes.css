@@ -60,7 +60,7 @@
       header nav a:nth-child(2) {
         float: right; }
       header nav a {
-        color: #000; }
+        color: #115D5E; }
       header nav h1 {
         font-weight: bold;
         font-family: "ostrich_sans_inlineregular", sans-serif; }
@@ -77,20 +77,22 @@
       main .links .box {
         display: inline; }
       main .links a {
-        background-color: #AA75DB;
+        /*       background-color: #A167D6; */
+        /*       border: 1px solid #A167D6; */
         display: inline; }
 
   .portfolio {
-    width: 130%;
-    padding: 10px;
-    margin-top: 160px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); }
 
   footer {
-    background-color: #AA75DB;
+    /* @include backgroundImg('/images/header-grid.png'); */
+    /*   background-color: #AA75DB; */
     text-align: center;
     margin-bottom: -10;
     margin-left: 0;
-    position: relative; } }
+    position: relative; }
+    footer img {
+      min-width: 100%;
+      overflow: hidden; } }
 
 /*# sourceMappingURL=themes.css.map */

@@ -47,6 +47,10 @@ $lindsey: #115D5E;
 $ostrich: 'ostrich_sans_inlineregular';
 $crescent: 'crescent-regular';
 
+@mixin backgroundImg($imgpath,$position:0 0,$repeat: no-repeat) {
+    background: transparent url(#{$imgpath}) $repeat $position;
+}
+
 * {
 	margin: 0;
 	padding: 0;
@@ -94,7 +98,7 @@ header {
       float:right;
     }
     a {
-      color: #000;
+      color: $lindsey;
     }
     h1 {
       font-weight: bold;
@@ -118,7 +122,8 @@ main {
       display: inline;
     }
     a {
-      background-color: #AA75DB;
+/*       background-color: #A167D6; */
+/*       border: 1px solid #A167D6; */
       display: inline;
     }
   }
@@ -132,11 +137,16 @@ img {
 	@extend .boxshadow;
 }
 footer {
-  background-color: #AA75DB;
+  /* @include backgroundImg('/images/header-grid.png'); */
+/*   background-color: #AA75DB; */
   text-align: center;
   margin-bottom: -10;
   margin-left: 0;
   position: relative;
+  img {
+    min-width: 100%;
+    overflow:hidden;
+  }
 }
 
 }
