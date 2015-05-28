@@ -66,6 +66,10 @@ $crescent: 'crescent-regular';
 	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
+strong {
+  font-weight: bold;
+}
+
 body {
 	min-width: 100%;
   min-height: 100%;
@@ -81,6 +85,7 @@ header {
   position:relative;
   margin-top:-10px;
   img {
+    @extend .boxshadow;
     min-width: 100%;
     float: left;
     margin: 0;
@@ -122,13 +127,34 @@ main {
   }
 }
 
-.portfolio {
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+.project {
+/*   @extend .boxshadow; */
+
 }
 
-img {
-	@extend .boxshadow;
+#portfolio-list {
+  margin-bottom: 20px;
+  h2 {
+    text-align: center;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+  }
+  p {
+    font-size: 16px;
+  }
 }
+
+.userstories {
+  li {
+    display: inline-block;
+    background-color: #999;
+    vertical-align: bottom;
+  }
+}
+
+/* img {
+  @extend .boxshadow;
+} */
 footer {
   /* @include backgroundImg('/images/header-grid.png'); */
 /*   background-color: #AA75DB; */
@@ -137,6 +163,7 @@ footer {
   margin-left: 0;
   position: relative;
   img {
+    @extend .boxshadow;
     min-width: 100%;
     overflow:hidden;
   }

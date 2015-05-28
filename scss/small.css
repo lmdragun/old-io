@@ -1,0 +1,63 @@
+@media (max-width: 599px) {
+  main {
+    width: 80%;
+    margin: 0 auto; }
+    main #content {
+      margin-top: 10px;
+      padding-top: 70px; }
+      main #content p {
+        text-indent: 10px;
+        font-size: 14px;
+        line-height: 16px;
+        padding: 5px;
+        margin: 5px; }
+      main #content img {
+        width: 50%;
+        margin-left: 25%; }
+    main .links {
+      font-size: 16px;
+      width: 100%;
+      display: block; }
+      main .links .box {
+        width: 50px;
+        text-align: center; }
+        main .links .box a {
+          padding: 10px;
+          display: block;
+          margin: 0 auto; }
+
+  header img {
+    height: 60px;
+    overflow: hidden; }
+  header nav {
+    display: block;
+    width: 100%;
+    height: 50px;
+    padding: 10px; }
+    header nav h1 {
+      float: left;
+      font-size: 26px; }
+    header nav .internal-links {
+      display: block;
+      width: 70px;
+      height: 50px;
+      float: right;
+      margin-right: 0; }
+    header nav a {
+      width: 20px;
+      padding: 2px;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: bold;
+      display: block; }
+      header nav a:hover {
+        text-decoration: overline underline; }
+      header nav a a:first-child {
+        float: left; }
+      header nav a a:nth-child(2) {
+        float: right; }
+
+  footer img {
+    max-height: 6px; } }
+
+/*# sourceMappingURL=small.css.map */

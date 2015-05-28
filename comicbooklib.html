@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/themes.css" media="all">
+	<link rel="stylesheet" type="text/css" href="css/large-project.css" media="all and (min-width: 600px)">
+	<link rel="stylesheet" type="text/css" href="css/small-project.css" media="all and (max-width: 599px)">
+</head>
+<body>
+	<header>
+		<nav>
+			<h1>Lindsey Dragun</h1>
+			<div class="internal-links">
+				<a href="index.html">Home</a>
+				<a href="contact.html">Contact</a>
+			</div>
+		</nav>
+		<img src="images/header-grid.png" alt="purple header">
+	</header>
+	<main>
+	<div class="portfolio">
+		<p></p>
+		<div class="project">
+		<h2>Comic Book Library</h2>
+		<div class="intro">
+			<img src="images/comicbooklib-mac1.png" alt="screencap from the app">
+			<p>A full-stack app designed to catalogue a user's comic books and track their lending, largely completed in a one-week period. A social feature using self-referential associations allows for following other users. Rail's has_secure_method ensures that users can safely login using hashed passwords.</p>
+			<p>Technologies used: Ruby on Rails, Active Record, Postgresql, HTML, CSS, jQuery, Javascript.</p>
+			<a href="https://github.com/lmdragun/comicbooklibrary">Github Repository</a>
+		</div>
+		<div class="userstories">
+			<h2>Example User Stories:</h2>
+			<p>These breakdown tasks to make it easier to focus on individual aspects of an app. Separated into "Current" (what I knew I could finish), "Backlog" (what I hoped to get to), and "Icebox" (which I would have to work on after the project ended). I finished all of my Current and most of my Backlog. These are a few of the stories I created.</p>
+			<h3>Current</h3>
+			<ul>
+				<li>As a user, when I sign up, I create an account for the app.</li>
+				<li>As a user, when I fill in the new comic form, I create a new comic entry.</li>
+				<li>As a user, when I login, I am logged into the app.</li>
+				<li>As a user, when I click to follow another user, they are added to my follows.</li>
+			</ul>
+			<h3>Backlog</h3>
+			<ul>
+				<li>As a user, when I update a comic's lending status, I can say who currently has it.</li>
+				<li>As a user, when I view my comics, I can see which ones I have lent out.</li>
+				<li>As a user, after I add an issue, I can edit some of the information</li>
+			</ul>
+			<h3>Ice Box</h3>
+			<ul>
+				<li>As a user, when I start putting in a comic, the forms aurocomplete</li>
+				<li>As a user, when I search for comics, I get every possible comic.</li>
+			</ul>
+			<p>Find the <a href="https://trello.com/b/RH5A8Nyp/comic-book-library">User Stories on Trello</a>.</p>
+		</div>
+		<div class="survey">
+			<h2>The Survey:</h2>
+			<p>After deciding on a topic, I created a survey to help me decide on which aspects of the app to focus on. With only a week to work on the project, the 24 respondents seemed enough for a general look into user desires. Here are a few of the results that I used.</p>
+			<img src="images/survey-loaning.png" alt="survey results about loan tracking">
+			<div class="survey-results">These results showed me that the main thrust of my app--loaning out comics--was of interest. In fact, two people said they wouldn't use the app, but <strong>would</strong> use it for loan tracking.</div>
+			<img src="images/survey-follow.png" alt="survey results about following">
+			<div class="survey-results">This showed me there would be an interest in following other users, so while I knew I couldn't yet include a message system or similar, I created the following method as a placeholder.</div>
+			<img src="images/survey-sorting.png" alt="survey results about sorting comics">
+			<div class="survey-results">I had originally been considering options for how to sort the comics--allowing people to sort by series, company, writer, etc. This survey result allowed me to put my time on another part of the app instead of working on a feature that users weren't interested in.</div>
+		</div>
+		<div class="sample-code">
+			<h2>Sample Code</h2>
+			<p>The following code is part of my User Model. This shows the two self-referential associations and part of has_secure_password setup.</p>
+			<a href="images/usermodel.png"><img src="images/usermodel.png" alt="sample code from user model"></a>
+		</div>
+	</div>
+	</div>
+</main>
+	<footer>
+		<img src="images/header-grid.png" alt="purple header">
+		<small>&copy; Lindsey Dragun</small>
+	</footer>
+</body>
+</html>

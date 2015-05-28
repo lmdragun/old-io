@@ -1,6 +1,6 @@
 @media (min-width: 600px) {
   main {
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
     padding: 10px; }
     main #content {
@@ -46,45 +46,13 @@
       header nav a:hover {
         text-decoration: overline underline; }
 
-  #left-side {
-    float: left;
-    width: 70%;
+  .portfolio {
     padding: 10px;
-    border: 1px solid black; }
-    #left-side h2 {
-      font-size: 26px;
-      font-weight: bold;
-      border-bottom: 1px solid black; }
-    #left-side h3 {
-      font-size: 20px;
-      padding: 10px 2px 0px 2px; }
-    #left-side h4 {
-      font-size: 18px;
-      text-indent: 10px; }
-    #left-side h5 {
-      font-size: 14px;
-      font-weight: bold;
-      text-align: center; }
-    #left-side p {
-      font-size: 14px;
-      padding: 2px 2px 0px 2px;
-      margin: 0px; }
+    margin-top: 180px auto; }
+    .portfolio img {
+      width: 50%; }
 
-  #right-side {
-    float: right;
-    width: 30%;
-    padding: 5px 0px 0px 10px;
-    border: 1px solid red; }
-    #right-side h2 {
-      border-bottom: 1px solid black; }
-    #right-side h3 {
-      margin-top: 5px; }
-    #right-side ul {
-      padding: 5px 0px 0px 20px; }
-
-  footer {
-    margin-top: 90%; }
-    footer img {
-      height: 10px; } }
+  footer img {
+    height: 10px; } }
 
 /*# sourceMappingURL=large-resume.css.map */

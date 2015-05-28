@@ -1,0 +1,150 @@
+@media (max-width: 599px){
+
+main {
+	width: 80%;
+	margin: 0 auto;
+	#content {
+		margin-top: 10px;
+		padding-top: 70px;
+		p {
+			text-indent: 10px;
+			font-size: 14px;
+			line-height: 16px;
+			padding: 5px;
+			margin: 5px;
+		}
+		img {
+			width: 50%;
+			margin-left: 25%;
+		}
+	}
+	.links {
+	font-size: 16px;
+	width: 100%;
+	display: block;
+		.box {
+			width: 50px;
+			text-align: center;
+			a {
+				padding: 10px;
+				display: block;
+				margin: 0 auto;
+			}
+		}
+	}
+}
+
+
+header {
+	img {
+		height: 60px;
+		overflow:hidden;
+	}
+	nav {
+		display: block;
+		width: 100%;
+		height: 50px;
+		padding: 10px;
+		h1 {
+			float: left;
+			font-size:26px;
+		}
+		.internal-links {
+			display: block;
+			width: 70px;
+			height: 50px;
+			float: right;
+			margin-right: 0;
+		}
+		a {
+			width: 20px;
+			padding: 2px;
+			text-decoration: none;
+			font-size:14px;
+			font-weight: bold;
+			display: block;
+			&:hover {
+				text-decoration: overline underline;
+			}
+			a:first-child {
+				float: left;
+			}
+			a:nth-child(2) {
+				float: right;
+			}
+		}
+	}
+}
+
+.portfolio {
+	p {
+		text-indent: 10px;
+	}
+	h2 {
+		font-size: 20px;
+		margin-top: 10px;
+	}
+	h3 {
+		margin-top: 10px;
+		font-size: 18px;
+	}
+}
+
+.intro {
+	img {
+		max-width: 80%;
+		margin-left: 10%;
+	}
+	p {
+		margin-bottom: 10px;
+	}
+	a {
+		margin-left: 30%;
+	}
+}
+
+.userstories {
+  margin-top: 20px;
+  li {
+		margin: 5px;
+		width: auto;
+    max-width: 45%;
+    height: 130px;
+    padding: 5px;
+  }
+}
+
+.survey {
+	h2 {
+		margin: 20px 0 20px 0;
+
+	}
+	img {
+		margin-top: 30px;
+		max-width: 100%;
+	}
+	.survey-results {
+		max-width: 90%;
+		font-size: 14px;
+		text-indent: 20px;
+	}
+}
+
+.sample-code {
+	h2 {
+
+	}
+	img {
+		max-width: 100%;
+		padding: 5px;
+	}
+}
+
+footer {
+	img {
+		max-height: 6px;
+	}
+}
+
+
+}
