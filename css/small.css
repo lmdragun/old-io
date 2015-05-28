@@ -25,6 +25,11 @@
           padding: 10px;
           display: block;
           margin: 0 auto; }
+    main #contact {
+      padding: 20% 0 0 0;
+      text-align: center; }
+      main #contact p {
+        padding: 5px; }
 
   header img {
     height: 60px;

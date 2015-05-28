@@ -26,14 +26,19 @@ main {
 	margin-bottom: 20px;
 	width: 100%;
 		.box {
-/* 			width: 200px; */
 			a {
 				padding: 20px;
 				width: 200px;
 			}
 		}
 	}
-
+	#contact {
+		padding: 20% 0 0 0;
+		text-align: center;
+		p {
+			padding: 5px;
+		}
+	}
 }
 
 
