@@ -78,6 +78,8 @@
         /*       background-color: #A167D6; */
         /*       border: 1px solid #A167D6; */
         display: inline; }
+    main h2 {
+      text-align: center; }
 
   .project {
     /*   @extend .boxshadow; */ }

@@ -49,8 +49,7 @@
   #left-side {
     float: left;
     width: 70%;
-    padding: 10px;
-    border: 1px solid black; }
+    padding: 10px; }
     #left-side h2 {
       font-size: 26px;
       font-weight: bold;
@@ -69,18 +68,20 @@
       font-size: 14px;
       padding: 2px 2px 0px 2px;
       margin: 0px; }
+    #left-side .space {
+      margin: 10px; }
 
   #right-side {
     float: right;
     width: 30%;
-    padding: 5px 0px 0px 10px;
-    border: 1px solid red; }
+    padding: 5px 0px 0px 30px; }
     #right-side h2 {
-      border-bottom: 1px solid black; }
+      border-bottom: 1px solid black;
+      margin-top: 9px; }
     #right-side h3 {
       margin-top: 5px; }
     #right-side ul {
-      padding: 5px 0px 0px 20px; }
+      padding: 10px 0px 0px 20px; }
 
   footer {
     margin-top: 90%; }
