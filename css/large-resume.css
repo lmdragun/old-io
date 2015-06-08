@@ -84,8 +84,8 @@
       padding: 10px 0px 0px 20px; }
 
   footer {
-    margin-top: 90%; }
-    footer img {
-      height: 10px; } }
+    /* 	margin-top: 90%; */
+    text-align: center;
+    margin: 0 auto; } }
 
 /*# sourceMappingURL=large-resume.css.map */
