@@ -80,6 +80,9 @@
         display: inline; }
     main h2 {
       text-align: center; }
+    main .outside-links {
+      text-align: center;
+      margin: 0 auto; }
 
   .project {
     /*   @extend .boxshadow; */ }
