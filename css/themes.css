@@ -87,6 +87,9 @@
   .project {
     /*   @extend .boxshadow; */ }
 
+  .style .caption {
+    text-align: center; }
+
   #portfolio-list {
     margin-bottom: 20px; }
     #portfolio-list h2 {

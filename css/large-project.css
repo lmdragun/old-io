@@ -66,7 +66,7 @@
     margin-top: 20px; }
     .userstories li {
       max-width: 20%;
-      height: 100px;
+      height: 110px;
       padding: 5px; }
 
   .survey h2 {
@@ -78,6 +78,11 @@
     margin: 0 0 0 20%;
     font-size: 14px;
     text-indent: 20px; }
+
+  .style img {
+    margin-top: 30px; }
+  .style .caption {
+    font-size: 14px; }
 
   footer img {
     height: 10px; } }

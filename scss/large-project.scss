@@ -92,7 +92,7 @@ header {
   margin-top: 20px;
   li {
     max-width: 20%;
-    height: 100px;
+    height: 110px;
     padding: 5px;
   }
 }
@@ -109,6 +109,15 @@ header {
 		margin: 0 0 0 20%;
 		font-size: 14px;
 		text-indent: 20px;
+	}
+}
+
+.style {
+	img {
+		margin-top: 30px;
+	}
+	.caption {
+		font-size: 14px;
 	}
 }
 
